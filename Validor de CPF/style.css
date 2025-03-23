@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.quadrado {
+    background: white;
+    padding: 100px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px ;
+    text-align: center;
+}
+#imagem{
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+}
+input {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+.valido {
+    color: green;
+    font-size: larger;
+}
+.invalido {
+    color: red;
+    font-size: larger;
+}                
